@@ -163,7 +163,7 @@ void fuckList(char *fuckdata) {
 
 		newtime = localtime(&timestamp);
 
-		strftime(date, 30, "%a, %d %b %Y %I:%M:%S GMT", newtime);
+		strftime(date, 30, "%a, %d %b %Y %I:%M:%S %Z", newtime);
 		printf("%s given on %s\n", expletive_uc, date);
 	}
 
