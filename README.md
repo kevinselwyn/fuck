@@ -1,8 +1,8 @@
-#fuck
+# fuck
 
 Log exactly how many fucks you give
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
@@ -10,7 +10,7 @@ make && sudo make install
 
 Note: the default fuckfile location is `~/.fucks`. This can be changed in the source.
 
-##PG Installation
+## PG Installation
 
 If you are ~~lame~~ working in a space where furious fuck-typing is frowned upon, compile with:
 
@@ -20,7 +20,7 @@ make pg && sudo make pg_install
 
 This will change the executable to `care` instead of `fuck`.
 
-##Usage
+## Usage
 
 ```
 Usage: fuck [options]
